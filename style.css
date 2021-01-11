@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 body {
-    background: #f2f0eb url(images/bg.jfif);
+    background: #f2f0eb url(bg.jfif);
     background-size: cover;
 	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
 }
