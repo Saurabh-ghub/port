@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 body {
-    background: #f2f0eb url(bg.jfif);
+    background: #f2f0eb url(bg_new.png);
     background-size: cover;
 	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
 }
@@ -13,26 +13,26 @@ body {
 }
 
 #logo {
-	margin: 10px auto 0 auto; position: relative; width: 183px;
+	margin: 10px auto 0 auto; position: relative; width: 200px;
 }
 #header {
 	height: 244px; padding: 52px 0 0 57px;
-   
-    background-size: 960px 144px;
+    background:  url(bg_header1.jpeg);
+    background-size: cover;
     background-color: #636363;
 }
 
 	#header h1 {
-		font: 38px Georgia, Serif; color: #eeba38; letter-spacing: 2px; margin: 0 0 20px 0;
-		text-shadow: 0px 3px 3px #494949;
+		font: 38px Georgia, Serif; color: #131202; letter-spacing: 2px; margin: 0 0 20px 0;
+		text-shadow: 0px 3px 3px #232d4e;
 	}
 	#header h2 {
-		width: 510px; font: 30px Georgia, Serif; color: #daae40; letter-spacing: 2px; margin: 0 0 20px 0;
+		width: 510px; font: 30px Georgia, Serif; color: #3e17ee; letter-spacing: 2px; margin: 0 0 20px 0;
 		text-shadow: 0px 3px 3px #494949;
 	}
 	#header p.btn a {
 		display: block; width: 225px; height: 50px; overflow: hidden;
-		background: url(bg.jfif); text-indent: -9999px;
+		background: url(bg_header.png); text-indent: -9999px;
     }
     #content {
         background: url(images/.jpg) repeat-y;
@@ -40,7 +40,7 @@ body {
         padding: 57px 69px 50px 69px; overflow: hidden;
     }
         #content h2 {
-            font: 30px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;
+            font: 30px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;color: black;
         }
     
         #content h3 {
@@ -69,10 +69,11 @@ body {
             display: block; width: 183px; height: 100%; padding: 7px 0 0 0;
             background: url(images/see-more-bg.png);
             font-weight: bold; text-align: center; text-transform: uppercase;
-            text-decoration: none;
+            
+            text-decoration: dotted;
         }
         #footer {
-            background: url(bg2.jpg) no-repeat; padding: 40px 0 0 0;
+            background: url(bg_foot.jpeg) no-repeat; padding: 40px 0 0 0;
             overflow: hidden; margin: 0 0 30px 0;
         }
             #footer p#copyright {
