@@ -88,19 +88,5 @@ body {
                 #footer a:hover {
                     color: #671111;
                 }
-                /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 650px) {
-    #footer {
-      width: 100%;
-      margin-top: 0;
-    }
-    /* hide the vertical line */
-    #header {
-      display: block;
-    }
-    /* show the hidden text on small screens */
-    #content {
-      display: block;
-      text-align: center;
-    }
-  }
+               
+
