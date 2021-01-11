@@ -96,7 +96,7 @@ body {
     }
     /* hide the vertical line */
     #header {
-      display: none;
+      display: block;
     }
     /* show the hidden text on small screens */
     #content {
