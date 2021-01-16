@@ -10,41 +10,28 @@
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <style>
    
-	.navbar {
-            overflow: hidden;
-            background-color: #333;
-            position: sticky;
-            position: -webkit-sticky;
-            top: 0;
-          }
-          
-          /* Style the navigation bar links */
-          .navbar a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-          }
-          
-          
-          /* Right-aligned link */
-          .navbar a.right {
-            float: right;
-          }
-          
-          /* Change color on hover */
-          .navbar a:hover {
-            background-color: #ddd;
-            color: black;
-          }
-          
-          /* Active/current link */
-          .navbar a.active {
-            background-color: #666;
-            color: white;
-          }
+	.sidenav {
+    width: 230px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background-color:rgb(51, 190, 149);
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d0d67e;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
 
     #overflowTest {
         background: #4CAF50;
@@ -83,21 +70,22 @@
   color: white;
 }
 
-/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
-</style>
-</head>
 
-<body> 
-    
-	<div class="navbar">
+</style>
+<div class="sidenav">
     <a href="#about">About</a>
     <a href="#achievements">Achievements</a>
     <a href="#interest">Interests and Hobbies</a>    
     <a href="#contact" class="right">Contact</a>
   </div>
+</head>
+
+<body> 
+    
+	
 
 	<div id="container">
-        <p id="logo"><img src="saurabh1.png" width="100" height="200" alt="Saurabh logo "  />
+        <p id="logo"><img src="saurabh.jpg" width="100" height="200" alt="Saurabh logo "  />
         
     </p>
 
