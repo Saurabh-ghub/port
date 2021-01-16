@@ -9,10 +9,56 @@
 
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <style>
+   
+	.navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+          }
+          
+          /* Style the navigation bar links */
+          .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+          }
+          
+          
+          /* Right-aligned link */
+          .navbar a.right {
+            float: right;
+          }
+          
+          /* Change color on hover */
+          .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          /* Active/current link */
+          .navbar a.active {
+            background-color: #666;
+            color: white;
+          }
+
+    #overflowTest {
+        background: #4CAF50;
+        color: white;
+        padding: 15px;
+        width: 50%;
+        height: 100px;
+        overflow: scroll;
+        border: 1px solid #ccc;
+      }
     img {
         border: 1px solid #ddd;
         border-radius: 8px;
-       border-image: round;
+       
         width: 300px;
        
       }
@@ -37,55 +83,62 @@
   color: white;
 }
 
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
 </style>
 </head>
 
 <body> 
     
+	<div class="navbar">
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#interest">Interests and Hobbies</a>    
+    <a href="#contact" class="right">Contact</a>
+  </div>
 
 	<div id="container">
-        <p id="logo"><a href="#"><img src="saurabh.jpg" width="200" height="200" alt="Saurabh logo "class="center" /></a>
+        <p id="logo"><img src="saurabh1.png" width="100" height="200" alt="Saurabh logo "  />
         
     </p>
 
        
     
-        <div id="header">
-            <h1>Hello, I'm Donald Trump</h1>
+        <div id="header" style="border: #4CAF50;">
+            <h1>Hello, I'm Saurabh Kumar</h1>
             <h2>I craft websites that are beautiful on both the inside and out.</h2>
-            
-         
-
         </div>
+        <a id="about">
         <div id="content">
             <h3><b><u>About Me</u></b></h3>
             
-            <p>I earn a living by creating custom brands and logo designs from scratch, as well as designing and building high quality websites and blogs, but I also enjoy producing the odd t-shirt graphic, illustration or character design. I pride myself in having the nerdy skills to build top notch creations online, as well as being knowledgeable in the print side of design.</p>
-                 
+            <p>I earn a living by creating custom brands and logo designs from scratch, as well as designing and building high quality websites and blogs, but I also enjoy producing the odd t-shirt graphic,</a><a id="achievements"> illustration or character design. I pride myself in having the nerdy skills to build top notch creations online, as well as being knowledgeable in the print side of design.</p>
+
+                  
         
-            <h3><b><u>My Achievements</u></b></h3>
+           <h3><b><u>My Achievements</u></b></h3></a>
             
-            <p>I’m forever creating design work for both myself as personal projects and as a hired gun for clients from around the world. Here’s a few of my most recent works.</p>
+            <p>I’m forever creating design work for both myself as personal <a id="interest">projects and as a hired gun for clients from around the world. Here’s a few of my most recent works.</p>
+           
             <h3><b><u>My Interests and Hobbies</u></b></h3>
             
-            <p>I’m forever creating design work for both myself as personal projects and as a hired gun for clients from around the world. Here’s a few of my most recent works.</p>
+            <p>I’m forever creating design work for both myself as personal projects and as a hired gun for clients from around the world. Here’s a few of my most recent works.</p></a>
             <div class="portfolio-item">
-                <a href="#"><img src="dance.png" width="180" height="200"alt="View more info" /></a>
+                <img src="dance.png" width="180" height="200"alt="View more info" />
                 <p class="btn">DANCER</p>
             </div>
-            <br><br><br>
+            <br><br>
             
             <div class="portfolio-item">
-                <a href="#"><img src="football.png" width="180" height="200" alt="View more info" /></a>
+                <img src="football.png" width="180" height="200" alt="View more info" />
                 <p class="btn">FOOTBALL PLAYER </p>
             </div>
-            <br><br><br>
+            <br><br>
             <div class="portfolio-item">
-                <a href="#"><img src="speaking.jfif" width="180" height="200" alt="View more info" /></a>
-                <p class="btn">   PUBLIC SPEAKER</p>
+                <img src="speaking.jfif" width="180" height="200" alt="View more info" />
+                <p class="btn"></p>
             </div>
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		<h3><u>Contact Details</u></h3>
+           <a id="contact"> <h3><b>Contact Details</b></h3></a>
             
             <p>I’m forever creating design work for both myself as personal projects and as a hired gun for clients from around the world. Here’s a few of my most recent works.</p>
             
@@ -123,3 +176,4 @@
 	</div>
 
 </body>
+</html>
