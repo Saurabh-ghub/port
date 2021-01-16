@@ -77,13 +77,13 @@ body {
             overflow: hidden; margin: 0 0 30px 0;
         }
             #footer p#copyright {
-                font-size: 12px; float: left; margin: 0 0 0 30px; color: #330303;
+                font-size: 12px; float: left; margin: 0 0 0 30px; color: #f6f0f0;
             }
             #footer p#back-top {
                 font-size: 12px; float: right; margin: 0 30px 0 0;
             }
                 #footer a {
-                color: #a12121; text-decoration: none;
+                color: #f6f0f0; text-decoration: blink;
             }
                 #footer a:hover {
                     color: #671111;
