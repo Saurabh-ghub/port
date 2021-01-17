@@ -92,7 +92,7 @@ body {
     #content {
         background: url(images/.jpg) repeat-y;
         background-color: rgb(250, 250, 250);
-        padding: 57px 69px 50px 69px; overflow: scroll;
+        padding: 57px 69px 50px 69px;
     }
         #content h2 {
             font: 30px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;color: black;
