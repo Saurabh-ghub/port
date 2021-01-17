@@ -92,6 +92,8 @@ body {
     #content {
         background: url(images/.jpg) repeat-y;
         background-color:#f2f0eb;
+	 border: 1px solid black;
+  	outline: 3px solid black(128, 0, 117);
         padding: 57px 69px 50px 69px;
     }
         #content h2 {
