@@ -7,6 +7,61 @@ body {
     background-size: cover;
 	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
 }
+ .sidenav {
+    width: 230px;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+   /* background-color:#d0d67e;*/
+    background: #f2f0eb url(re.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font: 30px Georgia, Serif;
+    font-size: 25px;
+    color: #136485;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+
+   
+    img {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+       
+        width: 300px;
+       
+      }
+      
+      img:hover {
+        box-shadow: 0 0 2px 3px rgba(183, 186, 0, 0.5);
+      }
+      
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+ 
+  color: white;
+}
+
+.twitter {
+ 
+  color: white;
+}
+
+.google {
+  
+  color: white;
+}
+
 
 #container {
 	width: 960px; margin: 0 auto;
